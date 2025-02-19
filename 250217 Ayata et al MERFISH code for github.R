@@ -14,7 +14,7 @@ options(scipen = 10000000)
 
 ### load in data tables and create Seurat object #######
 
-#read in data table, transpose, remove blanks, remove volume <50, add metadata and normalize for volume
+#read in data table
 FADTV411 <- read.table(file='counts_and_metadata_FADTV_411.csv', sep=",", header=TRUE,row.names=1)
 # transpose to rows are genes and columns are cells
 FADTV411 <- t(FADTV411)
