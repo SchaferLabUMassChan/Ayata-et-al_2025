@@ -4,9 +4,7 @@ point in group 1, finds the point in group 2 that is the smallest distance away
 and outputs the distances and names of the points in group 2 that meet these
 criteria for the points in group 1
 
-Unlike version 1, this version assumes a csv file called 'all_cells.csv'
-(generated, for example, in the early stages of
-'nearest_neighbor_calculator2.R')
+This version assumes a csv file called 'all_cells.csv'
 '''
 
 def x_y_cluster_columns(title_line):
